@@ -1,6 +1,12 @@
 ## UniprotKB Bio4j module
 
-This is a Bio4j module representing UniprotKB. Find more information in [bio4j/modules](https://github.com/bio4j/modules).
+This is a Bio4j module consisting of three parts:
+
+- `UniprotSwissprot`
+- `UniprotTrEMBL`
+- `UniprotKB` which just combines the other two
+
+Find more information in [bio4j/modules](https://github.com/bio4j/modules).
 
 ## Usage
 

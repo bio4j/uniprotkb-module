@@ -9,5 +9,9 @@ import ohnosequences.awstools.regions._
 case object UniprotKBApplicator extends AWSDistribution(
   UniprotKBMetadata,
   amzn_ami_pv_64bit(Region.Ireland)(javaHeap = 6),
-  members = UniprotKBRelease :~: UniprotKBDistribution :~: ∅
+  members = 
+    UniprotSwissProtRelease :~: UniprotSwissProtDistribution :~: 
+    UniprotTrEMBLRelease :~: UniprotTrEMBLDistribution :~: 
+    UniprotKBRelease :~: UniprotKBDistribution :~: 
+    ∅
 )
